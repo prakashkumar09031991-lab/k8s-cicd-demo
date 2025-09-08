@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: prakashkumar09031991/k8s-cicd-demo:latest
+          image: ghcr.io/prakashkumar09031991/k8s-cicd-demo:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
