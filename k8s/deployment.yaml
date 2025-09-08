@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: ghcr.io/prakashkumar09031991-labs/k8s-cicd-demo:latest
+          image: ghcr.io/prakashkumar09031991/k8s-cicd-demo:latest
           imagePullSecrets:
         - name: ghcr-secret
           imagePullPolicy: Always
